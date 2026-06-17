@@ -364,8 +364,7 @@ fn parse_unknown_command() {
 fn parse_run_tasks_command() {
     assert!(matches!(parse_command("run tasks"), Command::RunTasks));
 }
-<<<<<<< HEAD
-=======
+
 #[cfg(test)]
 #[test_case]
 fn parse_ls_command() {
@@ -389,4 +388,3 @@ fn parse_cat_command() {
         Command::Cat("hello.txt")
     ));
 }
->>>>>>> upstream/main
